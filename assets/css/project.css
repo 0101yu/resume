@@ -5,7 +5,12 @@
         url('../fonts/SentyPea.ttf') format("truetype"),
         url('../fonts/SentyPea.eot') format("embedded-opentype");
 }
-
+@font-face {
+    font-family: 'OzCaramel';
+    src: url('../fonts/OzCaramel.woff') format("woff"),
+        url('../fonts/OzCaramel.ttf') format("truetype"),
+        url('../fonts/OzCaramel.eot') format("embedded-opentype");
+}
 
 
 /*-----標題------*/
