@@ -6,12 +6,6 @@
         url('../fonts/OzCaramel.eot') format("embedded-opentype");
 }
 
-@font-face {
-    font-family: 'OzCaraHanyiSentyFoundationmel';
-    src: url('../fonts/HanyiSentyFoundation.woff') format("woff"),
-        url('../fonts/HanyiSentyFoundation.ttf') format("truetype"),
-        url('../fonts/HanyiSentyFoundation.eot') format("embedded-opentype");
-}
 
 .professional{
     height: 23%;
@@ -115,7 +109,7 @@ h2 {
 
 .word {
     font-size: 35px;
-    font-family: "OzCaraHanyiSentyFoundationmel";
+    font-family: "OzCaramel";
     color: white;
     font-weight: 700;
 }
@@ -138,7 +132,7 @@ h2 {
     border-radius: 15px;
     background-color: #eee5e5;
     color: black;
-    font-family: "OzCaraHanyiSentyFoundationmel";
+    font-family: "OzCaramel";
     font-size: 25px;
     font-weight: 700;
 }
@@ -246,7 +240,7 @@ h3 {
     border-radius: 15px;
     background-color: #eee5e5;
     color: black;
-    font-family: "OzCaraHanyiSentyFoundationmel";
+    font-family: "OzCaramel";
     font-size: 25px;
     font-weight: 700;
 }
