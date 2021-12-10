@@ -1,10 +1,5 @@
 /*------字體--------*/
-@font-face {
-    font-family: 'OzCaraHanyiSentyFoundationmel';
-    src: url('../fonts/HanyiSentyFoundation.woff') format("woff"),
-        url('../fonts/HanyiSentyFoundation.ttf') format("truetype"),
-        url('../fonts/HanyiSentyFoundation.eot') format("embedded-opentype");
-}
+
 
 @font-face {
     font-family: 'OzCaramel';
@@ -16,7 +11,7 @@
 .school {
     color: floralwhite;
     font-size: 50px;
-    font-family: "HanyiSentyFoundation";
+    font-family: "OzCaramel";
     height: 100px;
     width: 150px;
     position: relative;
@@ -97,7 +92,7 @@
 .activity {
     color: floralwhite;
     font-size: 52px;
-    font-family: "HanyiSentyFoundation";
+    font-family: "OzCaramel";
     height: 100px;
     width: 230px;
     position: relative;
