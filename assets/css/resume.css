@@ -11,19 +11,14 @@ body {
         url('../fonts/OzCaramel.eot') format("embedded-opentype");
 }
 
-@font-face {
-    font-family: 'OzCaraHanyiSentyFoundationmel';
-    src: url('../fonts/HanyiSentyFoundation.woff') format("woff"),
-        url('../fonts/HanyiSentyFoundation.ttf') format("truetype"),
-        url('../fonts/HanyiSentyFoundation.eot') format("embedded-opentype");
-}
+
 
 /*------標題-------*/
 .resume {
     color: #9a031e;
     text-align: center;
     font-size: 70px;
-    font-family: "HanyiSentyFoundation";
+    font-family: "OzCaramel";
     letter-spacing: 30px;
     font-weight: bolder;
     margin: 10px;
@@ -120,7 +115,7 @@ body {
     top: 2%;
     letter-spacing: 3px;
     line-height: 55px;
-    font-family: " HanyiSentyFoundation";
+    font-family: " OzCaramel";
 }
 
 /*------圖示--------*/
@@ -187,7 +182,7 @@ body {
     bottom: 13%;
     letter-spacing: 3px;
     line-height: 65px;
-    font-family: OzCaramel;
+    font-family: "OzCaramel";
 
     text-shadow: 0px 5px 0px black,
 
@@ -225,9 +220,7 @@ div.box3 {
     display: flex;
 }
 
-/*div #experiance {
-   margin-top: 10%;
-}*/
+
 
 .red {
     width: 1350px;
