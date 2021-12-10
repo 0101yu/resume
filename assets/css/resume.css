@@ -113,13 +113,13 @@ body {
 /*-------自我介紹--------*/
 .introduce {
     color: white;
-    font-size: 33px;
+    font-size: 31px;
     font-weight: 200;
     position: relative;
-    right: 18%;
+    right: 11%;
     top: 2%;
-    letter-spacing: 5px;
-    line-height: 63px;
+    letter-spacing: 3px;
+    line-height: 55px;
     font-family: " HanyiSentyFoundation";
 }
 
@@ -180,13 +180,13 @@ body {
 /*------座右銘--------*/
 .motto {
     color: wheat;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 200;
     position: relative;
-    right: 19%;
+    right: 18%;
     bottom: 13%;
     letter-spacing: 3px;
-    line-height: 55px;
+    line-height: 65px;
     font-family: OzCaramel;
 
     text-shadow: 0px 5px 0px black,
