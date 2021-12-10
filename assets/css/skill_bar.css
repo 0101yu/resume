@@ -1,0 +1,293 @@
+/*------字體--------*/
+@font-face {
+    font-family: 'OzCaramel';
+    src: url('../fonts/OzCaramel.woff') format("woff"),
+        url('../fonts/OzCaramel.ttf') format("truetype"),
+        url('../fonts/OzCaramel.eot') format("embedded-opentype");
+}
+
+@font-face {
+    font-family: 'OzCaraHanyiSentyFoundationmel';
+    src: url('../fonts/HanyiSentyFoundation.woff') format("woff"),
+        url('../fonts/HanyiSentyFoundation.ttf') format("truetype"),
+        url('../fonts/HanyiSentyFoundation.eot') format("embedded-opentype");
+}
+
+.professional{
+    height: 23%;
+    width: 42%;
+    position: relative;
+    left: 31%;
+    top:4%
+    
+}
+
+/*-------裝飾1------*/
+
+.back1 {
+    height: 26%;
+    width: 14%;
+    position: relative;
+    right: 35%;
+    transition: 0.3s all ease;
+}
+
+.back1:hover {
+    -webkit-transform: translate(15px, 0);
+    -moz-transform: translate(15px, 0);
+    transform: translate(15px, 0);
+}
+
+/*-------裝飾2------*/
+.back2 {
+    height: 12%;
+    width: 17%;
+    position: relative;
+    right: 40%;
+    bottom: 12%;
+    transition: 0.3s all ease;
+}
+.back2:hover {
+    -webkit-transform: translate(15px, 0);
+    -moz-transform: translate(15px, 0);
+    transform: translate(15px, 0);
+}
+
+/*-------裝飾3------*/
+
+.back3 {
+    height: 25%;
+    width: 15%;
+    position: relative;
+    left: 7%;
+    top: 4%;
+    z-index: 5;
+    transition: 0.3s all ease;
+}
+
+.back3:hover {
+    -webkit-transform: translate(-15px, 0);
+    -moz-transform: translate(-15px, 0);
+    transform: translate(-15px, 0);
+}
+
+/*-------程式技能------*/
+.wrapper {
+    width: 60%;
+    min-width: 590px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 32%;
+    top: 36%;
+}
+
+.container {
+    width: 70%;
+    padding: 10px 30px 20px;
+    background-color: #7fb174;
+    border-radius: 40px;
+
+}
+
+.container * {
+    font-family: "OzCaramel", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+    text-align: center;
+    font-size: 48px;
+    border-style: dotted;
+    border-color: #264b1e;
+    border-width: 10px;
+    border-radius: 25px;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.word {
+    font-size: 35px;
+    font-family: "OzCaraHanyiSentyFoundationmel";
+    color: white;
+    font-weight: 700;
+}
+
+.bar {
+    text-align: right;
+    position: relative;
+    border: 5px solid #eee5e5;
+    /*3be7b9ef*/
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #eee5e5;
+    color: black;
+    font-family: "OzCaraHanyiSentyFoundationmel";
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*-------動畫1------*/
+#html-bar {
+    animation: html-fill 15s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+#css-bar {
+    animation: css-fill 15s forwards;
+}
+
+@keyframes css-fill {
+    100% {
+        width: 70%;
+    }
+}
+
+#javascript-bar {
+    animation: js-fill 15s forwards;
+}
+
+@keyframes js-fill {
+    100% {
+        width: 50%;
+    }
+}
+
+#C-bar {
+    animation: C-fill 15s forwards;
+}
+
+@keyframes C-fill {
+    100% {
+        width: 45%;
+    }
+}
+
+/*-------特殊技能------*/
+.wrapper2 {
+    width: 60%;
+    min-width: 590px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 81%;
+    bottom: 35%;
+}
+
+.container2 {
+    width: 70%;
+    padding: 10px 30px 20px;
+    background-color: #0e4d42;
+    border-radius: 40px;
+}
+
+.container2 * {
+    font-family: "OzCaramel", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+h3 {
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.details2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.word2 {
+    font-size: 35px;
+    font-family: "OzCaramel";
+    color: white;
+    font-weight: 700;
+}
+
+.bar2 {
+    text-align: right;
+    position: relative;
+    border: 5px solid #eee5e5;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.bar2 div {
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #eee5e5;
+    color: black;
+    font-family: "OzCaraHanyiSentyFoundationmel";
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*-------動畫2------*/
+#card-bar2 {
+    animation: card-fill 15s forwards;
+}
+
+@keyframes card-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#talk-bar2 {
+    animation: talk-fill 15s forwards;
+}
+
+@keyframes talk-fill {
+    100% {
+        width: 85%;
+    }
+}
+
+#fat-bar2 {
+    animation: fat-fill 15s forwards;
+}
+
+@keyframes fat-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+#Cook-bar2 {
+    animation: Cook-fill 15s forwards;
+}
+
+@keyframes Cook-fill {
+    100% {
+        width: 70%;
+    }
+}

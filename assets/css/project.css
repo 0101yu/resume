@@ -1,0 +1,244 @@
+/*------字體--------*/
+@font-face {
+    font-family: 'SentyPea';
+    src: url('../fonts/SentyPea.woff') format("woff"),
+        url('../fonts/SentyPea.ttf') format("truetype"),
+        url('../fonts/SentyPea.eot') format("embedded-opentype");
+}
+
+
+
+/*-----標題------*/
+.project_title {
+    position: relative;
+    bottom: 15%;
+    font-size: 68px;
+
+}
+
+.project_title .project_title1 {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.1em;
+    padding-bottom: 0.15em;
+    left: 39%;
+}
+
+.project_title .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    top: 90%;
+}
+
+/*.project_title*/
+.letter {
+    display: inline-block;
+    line-height: 1em;
+    color: white;
+    font-family: "SentyPea";
+}
+
+/*------時間軸-------*/
+.line {
+    position: relative;
+    left: 4%;
+    top: 49%;
+    height: 10%;
+    width: 93%;
+}
+
+.project1 {
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-family: "SentyPea";
+    font-size: 47px;
+    font-weight: bolder;
+    width: 200px;
+}
+
+.project2 {
+    width: 200px;
+    color: white;
+    position: relative;
+    top: 2%;
+    left: 44%;
+    font-family: "SentyPea";
+    font-size: 47px;
+    font-weight: bolder;
+}
+
+.project3 {
+    width: 200px;
+    color: white;
+    position: relative;
+    top: 4%;
+    left: 79%;
+    font-family: "SentyPea";
+    font-size: 47px;
+    font-weight: bolder;
+}
+
+/*--------企業概論---------*/
+.cake {
+    position: relative;
+    left: 3%;
+    bottom: 37%;
+    width: 300px;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+.cake:hover {
+    transform: scale(1.1);
+}
+
+.cake1 {
+    position: relative;
+    left: 4%;
+    bottom: 73%;
+    width: 300px;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.cake1:hover {
+    z-index: 3;
+    transform: scale(1.1);
+}
+
+
+.honey {
+
+    font-size: 37px;
+    color: #ebc57c;
+    font-weight: 5px;
+    font-family: "SentyPea";
+    position: relative;
+    left: 3%;
+    bottom: 55%;
+    width: 500px;
+}
+
+.honey1 {
+    font-size: 29px;
+    color: white;
+    font-weight: 2px;
+    font-family: "SentyPea";
+    position: relative;
+    left: 2%;
+    bottom: 58%;
+    width: 500px;
+}
+
+/*--------管理學---------*/
+.manager {
+    position: relative;
+    left: 35%;
+    top: -85%;
+    width: 300px;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+.manager:hover {
+    transform: scale(1.1);
+}
+
+.manager1 {
+    position: relative;
+    left: 40%;
+    top: -120%;
+    width: 300px;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.manager1:hover {
+    z-index: 3;
+    transform: scale(1.1);
+}
+
+
+.manager3 {
+
+    font-size: 38px;
+    color: #ebc57c;
+    font-weight: 5px;
+    font-family: "SentyPea";
+    position: relative;
+    left: 40%;
+   top: -195%;
+    width: 500px;
+}
+
+.manager4 {
+    font-size: 30px;
+    color: white;
+    font-weight: 2px;
+    font-family: "SentyPea";
+    position: relative;
+    left: 33%;
+    bottom: 79%;
+    width: 500px;
+}
+
+/*--------多媒體-信實宿舍---------*/
+.domitory {
+    position: relative;
+    left: 68%;
+    top: -100%;
+    width: 300px;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+.domitory:hover {
+    transform: scale(1.1);
+}
+
+.domitory3 {
+
+    font-size: 38px;
+    color: #ebc57c;
+    font-weight: 5px;
+    font-family: "SentyPea";
+    position: relative;
+    left: 72%;
+    bottom: 92%;
+    width: 500px;
+}
+
+.domitory4 {
+    font-size: 30px;
+    color: white;
+    font-weight: 2px;
+    font-family: "SentyPea";
+    position: relative;
+    left: 69%;
+    bottom: 95%;
+    width: 500px;
+}
+
+.meteor{
+    position: relative;
+    left: 73%;
+    top: -182%;
+    height: 180px;
+    width: 280px;
+    transform:rotate(-10deg);
+    transition: 0.5s all ease;
+}
+
+.meteor:hover {
+    -webkit-transform: translate(-20px, 0);
+    -moz-transform: translate(-20px, 0);
+    transform: translate(-20px, 0);
+}

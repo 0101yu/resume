@@ -1,0 +1,260 @@
+body {
+    background-color: #ffecd1;
+    /*#faedcd*/
+}
+
+/*------字體--------*/
+@font-face {
+    font-family: 'OzCaramel';
+    src: url('../fonts/OzCaramel.woff') format("woff"),
+        url('../fonts/OzCaramel.ttf') format("truetype"),
+        url('../fonts/OzCaramel.eot') format("embedded-opentype");
+}
+
+@font-face {
+    font-family: 'OzCaraHanyiSentyFoundationmel';
+    src: url('../fonts/HanyiSentyFoundation.woff') format("woff"),
+        url('../fonts/HanyiSentyFoundation.ttf') format("truetype"),
+        url('../fonts/HanyiSentyFoundation.eot') format("embedded-opentype");
+}
+
+/*------標題-------*/
+.resume {
+    color: #9a031e;
+    text-align: center;
+    font-size: 70px;
+    font-family: "HanyiSentyFoundation";
+    letter-spacing: 30px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+/*------主題1-----*/
+.box1 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.orange {
+    width: 675px;
+    height: 840px;
+    background-color: #f07603;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.blue {
+    width: 675px;
+    height: 840px;
+    background-color: #15616d;
+    border-radius: 0px 40px 40px 0px;
+}
+
+/*-------個人照------*/
+.personal {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    left: 17%;
+    top: 8%;
+    border-radius: 50%;
+    border-style: double;
+    border-color: #15616d;
+    border-width: 15px;
+    transition: 1.5s;
+}
+
+.personal:hover {
+    transform: rotate(360deg)
+}
+
+/*-------專業技能(圖)--------*/
+.part1 {
+    width: 180px;
+    height: 310px;
+    position: relative;
+    left: 4%;
+    top: 7%;
+    transition: 0.5s;
+}
+
+.part1:hover {
+    transform: scale(1.15);
+}
+
+/*-------活動經歷(圖)--------*/
+.part2 {
+    width: 180px;
+    height: 250px;
+    position: relative;
+    left: 10%;
+    top: 6%;
+    transition: 0.5s;
+}
+
+.part2:hover {
+    transform: scale(1.15);
+}
+
+/*-------專案作品(圖)--------*/
+.part3 {
+    width: 190px;
+    height: 270px;
+    position: relative;
+    left: 13%;
+    top: 6%;
+    transition: 0.5s;
+}
+
+.part3:hover:hover {
+    transform: scale(1.15);
+}
+
+/*-------自我介紹--------*/
+.introduce {
+    color: white;
+    font-size: 33px;
+    font-weight: 200;
+    position: relative;
+    right: 18%;
+    top: 2%;
+    letter-spacing: 5px;
+    line-height: 63px;
+    font-family: " HanyiSentyFoundation";
+}
+
+/*------圖示--------*/
+.FB {
+    position: relative;
+    left: 5%;
+    top: 4%;
+    transition: 0.4s all ease;
+}
+
+.FB:hover {
+    -webkit-transform: translate(0, -12px);
+    -moz-transform: translate(0, -12px);
+    transform: translate(0, -12px);
+}
+
+.IG {
+    position: relative;
+    left: 10%;
+    top: 5%;
+    transition: 0.4s all ease;
+}
+
+.IG:hover {
+    -webkit-transform: translate(0, -12px);
+    -moz-transform: translate(0, -12px);
+    transform: translate(0, -12px);
+}
+
+
+.gmail {
+    position: relative;
+    left: 16%;
+    top: 5%;
+    transition: 0.4s all ease;
+}
+
+.gmail:hover {
+    -webkit-transform: translate(0, -12px);
+    -moz-transform: translate(0, -12px);
+    transform: translate(0, -12px);
+}
+
+.github {
+    position: relative;
+    left: 20%;
+    top: 5%;
+    transition: 0.4s all ease;
+}
+
+.github:hover {
+    -webkit-transform: translate(0, -12px);
+    -moz-transform: translate(0, -12px);
+    transform: translate(0, -12px);
+}
+
+/*------座右銘--------*/
+.motto {
+    color: wheat;
+    font-size: 30px;
+    font-weight: 200;
+    position: relative;
+    right: 19%;
+    bottom: 13%;
+    letter-spacing: 3px;
+    line-height: 55px;
+    font-family: OzCaramel;
+
+    text-shadow: 0px 5px 0px black,
+
+        0px 14px 10px rgba(14, 13, 13, 0.15),
+
+        0px 24px 2px rgba(2, 2, 2, 0.1),
+
+        0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+/*------主題2-----*/
+div.box2 {
+    justify-content: center;
+    display: flex;
+}
+
+div.skill {
+    margin-top: 10%;
+}
+
+.green {
+    width: 1350px;
+    height: 840px;
+    background-color: #7fb174;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 5%;
+}
+
+
+
+
+/*------主題3-----*/
+div.box3 {
+    justify-content: center;
+    display: flex;
+}
+
+/*div #experiance {
+   margin-top: 10%;
+}*/
+
+.red {
+    width: 1350px;
+    height: 840px;
+    background-color: #e69d5a;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 5%;
+}
+
+
+/*------主題4-----*/
+div.box4 {
+    justify-content: center;
+    display: flex;
+}
+
+div #work {
+
+    height: 910px;
+    /*margin-top: 10%;*/
+}
+
+.purple {
+    width: 1350px;
+    height: 840px;
+    background-color: #3b3857;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

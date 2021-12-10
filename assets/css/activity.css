@@ -1,0 +1,258 @@
+/*------字體--------*/
+@font-face {
+    font-family: 'OzCaraHanyiSentyFoundationmel';
+    src: url('../fonts/HanyiSentyFoundation.woff') format("woff"),
+        url('../fonts/HanyiSentyFoundation.ttf') format("truetype"),
+        url('../fonts/HanyiSentyFoundation.eot') format("embedded-opentype");
+}
+
+@font-face {
+    font-family: 'OzCaramel';
+    src: url('../fonts/OzCaramel.woff') format("woff"),
+        url('../fonts/OzCaramel.ttf') format("truetype"),
+        url('../fonts/OzCaramel.eot') format("embedded-opentype");
+}
+
+.school {
+    color: floralwhite;
+    font-size: 50px;
+    font-family: "HanyiSentyFoundation";
+    height: 100px;
+    width: 150px;
+    position: relative;
+    top: 2%;
+    left: 13%;
+}
+
+.school1 {
+    list-style-type: none;
+    margin-left: 200px;
+    margin-bottom: -25px;
+    padding-top: 55px;
+}
+
+
+/*-------學歷-----------*/
+
+#abcd .school2 {
+
+    transform: translateX(-50%) translateY(-50%);
+    width: 370px;
+    height: 220px;
+    background-color: #82bbb5;
+    overflow: hidden;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#abcd .school3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#abcd .school4 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    background-color: #9feee6;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    transform-origin: left;
+    transition: .5s;
+    transform: rotateY(90deg);
+
+}
+
+#abcd .school4 h1 {
+    margin: 5px 0;
+    margin-top: -20px;
+    padding: 0;
+    font-size: 37px;
+    font-family: "OzCaramel";
+}
+
+#abcd .school4 p {
+    margin: 0;
+    padding: 0;
+    color: #1d304c;
+    font-size: 20px;
+    font-family: "OzCaramel";
+    font-weight: bolder;
+}
+
+#abcd .school2:hover .school4 {
+    transform: rotateY(0deg);
+}
+
+#abcd .school2:hover .school3 {
+    transform: translateX(50%);
+}
+
+.activity {
+    color: floralwhite;
+    font-size: 52px;
+    font-family: "HanyiSentyFoundation";
+    height: 100px;
+    width: 230px;
+    position: relative;
+    top: -107%;
+    left: 57%;
+}
+
+
+#cvb{
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+}
+
+#cvb .c2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    filter: grayscale(100%);
+    transition: 0.5s ease-in-out;
+}
+
+#cvb .c2:hover {
+    filter: grayscale(0%);
+}
+
+/*-------活動經歷------*/
+
+.c1 {
+    position: relative;
+    top: -96%;
+    left: 51%;
+    width: 10%;
+}
+
+.w1{
+    position: relative;
+    top: -113%;
+    left: 38%;
+    width: 40%;
+}
+
+.x1{
+    font-size:23px;
+    width: 500px;
+    font-family: "OzCaramel";
+    color: white;
+    
+}
+
+
+ .c2 {
+    transform: translateX(-50%) translateY(-50%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+    border-radius: 20px 20px 20px 20px;
+}
+
+ .c2:hover{
+    filter: grayscale(0%);
+}
+
+
+
+.c3{
+    position: relative;
+    top: -101%;
+    left: 51%;
+    width: 10%;
+}
+
+.w2{
+    position: relative;
+    top: -118%;
+    left: 38%;
+    width: 10%;
+}
+
+.x2{
+    font-size:23px;
+    width: 500px;
+    font-family: "OzCaramel";
+    color: white;
+}
+.c4{
+    position: relative;
+    top: -194.5%;
+    left: 80%;
+    width: 10%;
+}
+.w3{
+    position: relative;
+    top: -211%;
+    left: 68%;
+    width: 10%;
+}
+.x3{
+    font-size:23px;
+    width: 500px;
+    font-family: "OzCaramel";
+    color: white;
+}
+
+.c5{
+    position: relative;
+    top: -197%;
+    left: 80%;
+    width: 10%;
+}
+.w4{
+    position: relative;
+    top: -213%;
+    left: 67%;
+    width: 10%;
+}
+
+.x4{
+    font-size:23px;
+    width: 500px;
+    font-family: "OzCaramel";
+    color: white;
+}
+
+
+/*-------返回、上頁按鈕------*/
+.back4{
+    height: 28%;
+    width: 22%;
+    position: relative;
+    top: -245%;
+    left: 91.5%;
+    transition: 0.2s all ease;
+}
+
+
+
+.back4:hover {
+    -webkit-transform: translate(0, -20px);
+    -moz-transform: translate(0, -20px);
+    transform: translate(0, -20px);
+}
+
+
+.back5{
+    height: 30%;
+    width: 7%;
+    position: relative;
+    top: -310%;
+    left: -29%;
+    transition: 0.4s all ease;
+}
+
+.back5:hover {
+    -webkit-transform: translate(0, -30px);
+    -moz-transform: translate(0, -30px);
+    transform: translate(0, -30px);
+}
